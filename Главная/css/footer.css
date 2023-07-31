@@ -1,0 +1,192 @@
+footer {
+  width: 100%;
+  height: 340px;
+  background: #F7F7F7;
+}
+footer > div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .footer_top {
+  height: 107px;
+  border-bottom: 1px solid #EDEDED;
+}
+footer .footer_top_center {
+  width: 1235px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+footer .footer_top_center > div {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .footer_top_titles {
+  width: 100%;
+}
+footer .footer_top_titles ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .footer_top_titles ul li {
+  display: block;
+  width: 181px;
+  text-align: center;
+}
+footer .footer_top_titles ul li:last-of-type {
+  width: auto;
+}
+footer .footer_bottom {
+  height: 186px;
+  border-bottom: 1px solid #EDEDED;
+}
+footer .footer_bottom_center {
+  width: 1235px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+footer .footer_bottom_center > div {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .footer_bottom_center > div.footer_bottom_logo {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+footer .footer_bottom_logo {
+  width: 220px;
+}
+footer .footer_bottom_logo svg {
+  margin-bottom: 40px;
+}
+footer .footer_bottom_menu {
+  width: 652px;
+}
+footer .footer_bottom_menu ul {
+  width: 100%;
+  height: 125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+footer .footer_bottom_menu ul li {
+  display: block;
+  width: 205px;
+  margin-bottom: 10px;
+}
+footer .footer_bottom_menu ul li:hover a {
+  color: #53AADC;
+}
+footer .footer_bottom_menu ul li a {
+  font-size: 14px;
+}
+footer .footer_bottom_mail form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 135px;
+}
+footer .footer_bottom_mail form label {
+  font-size: 14px;
+  width: 200px;
+}
+footer .footer_bottom_mail form input {
+  height: 45px;
+  width: 220px;
+  border-radius: 8px;
+  border: 6px solid #E3F2FC;
+  background-color: #FFFFFF;
+  font-size: 14px;
+  padding: 0 17px;
+}
+footer .footer_bottom_mail form button {
+  height: 33px;
+  width: 220px;
+  color: rgba(82, 86, 89, 0.8);
+  font-size: 14px;
+  background: #E3F2FC;
+  border-radius: 8px;
+  border: none;
+}
+footer .footer_info {
+  height: 46px;
+}
+footer .footer_info span, footer .footer_info a {
+  font-size: 13px;
+}
+footer .footer_info a {
+  color: #1A8ED0;
+  margin-left: 5px;
+}
